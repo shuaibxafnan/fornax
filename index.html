@@ -3,549 +3,394 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odyssey</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="jarallax.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Fornax | Vietnam and Chile travel guide</title>
+    <meta name="description"
+        content="Landmarks, landscapes and cultural wonders across Vietnam and Chile: beaches, waterfalls, forests and mountains.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Syne:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section id="home">
-        <header>
+    <section class="hero" id="home">
+        <img class="hero-bg" src="images/hero.jpg" alt="">
+        <header class="nav">
+            <a class="brand" href="#home">Fornax</a>
             <nav>
-                <h4><a href="#">Odyssey</a></h4>
                 <ul>
                     <li><a href="#explore">Explore</a></li>
                     <li><a href="#destinations">Destinations</a></li>
-                    <li><a href="#contact">Talk To Us</a></li>
+                    <li><a href="#contact">Talk to us</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="hero">
-            <div class="heroContent">
-                <!-- <h4>Alchemy</h4> -->
-                <h2>Odyssey</h2>
-            </div>
-            <div class="heroBx">
-                <div class="bxSingle glass">
-                    <h4>Unveil the World's Must-See Tourist Attractions</h4>
-                    <h6>Embark on a journey to discover captivating landmarks, stunning landscapes, and cultural
-                        wonders.</h6>
-                </div>
-                <div class="boxes">
-                    <div class="bxSingle">
-                        <img src="images/vietnam.jpg" alt="">
-                        <h3>Vietnam</h3>
-                    </div>
-                    <div class="bxSingle">
-                        <img src="images/chile.jpg" alt="">
-                        <h3>Chile</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="placeBx">
-        <div class="img-left img-place">
-            <img src="images/vietnam1.jpg" alt="">
-        </div>
-        <div class="place-content">
-            <h4>Vietnam offers stunning landscapes, rich history, delicious cuisine, vibrant cities, and serene beaches.
-                Explore ancient temples, cruise through Halong Bay, and savor authentic pho.
-            </h4>
-        </div>
-        <div class="img-right img-place">
-            <img src="images/vietnam2.jpg" alt="">
-        </div>
-    </div>
-    <section class="placesVietnam places">
-        <div class="placesDiv">
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/mucangchai.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Mu Cang Chai</h4>
-                        <p>A breathtaking region in Vietnam's northwest known for its terraced rice fields, showcasing
-                            stunning landscapes and cultural heritage.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/hominh.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Ho Chi Minh</h4>
-                        <p>Vietnam's largest city and bustling economic hub, offering a mix of colonial landmarks,
-                            vibrant
-                            markets, and delicious street food.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/ninhBinh.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Ninh Binh</h4>
-                        <p>A picturesque province in Vietnam, famous for its karst landscapes, caves, and historical
-                            sites,
-                            including the ancient capital of Hoa Lu.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="placesDiv">
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/dragon.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Dragon Bridge of Danang</h4>
-                        <p>Iconic bridge in Vietnam's Danang city, featuring a dragon-shaped design and captivating
-                            nighttime fire-breathing shows.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/danang.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Han River Bridge of Danang</h4>
-                        <p>An architectural masterpiece in Danang, Vietnam, known for its unique swing-span design and
-                            stunning illuminations.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/fanis.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Sa Pa Fanispan</h4>
-                        <p>Located in Sa Pa, Vietnam, Fanispan is the highest peak in Indochina, attracting adventurous
-                            hikers with its majestic beauty.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="placeBx">
-        <div class="img-left img-place">
-            <img src="images/chile1.jpg" alt="">
-        </div>
-        <div class="place-content">
-            <h4>Chile entices travelers with its diverse landscapes, from the otherworldly Atacama Desert to the
-                breathtaking Patagonian fjords. Experience vibrant culture, explore vineyards, and trek in the Andes.
-            </h4>
-        </div>
-        <div class="img-right img-place">
-            <img src="images/chile2.jpg" alt="">
-        </div>
-    </div>
-    <section class="placesChile places">
-        <div class="placesDiv">
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/providencia.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Providencia</h4>
-                        <p>A vibrant neighborhood in Santiago, Chile, offering a mix of shopping, dining, and cultural
-                            attractions.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/atacama.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Atacama Desert</h4>
-                        <p>A mesmerizing, arid landscape in Chile, known for its otherworldly beauty and stargazing
-                            opportunities.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/easter.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Easter Island</h4>
-                        <p>A remote Polynesian island in the Pacific Ocean, famous for its enigmatic moai statues and
-                            rich
-                            cultural heritage.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="placesDiv">
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/PetrohuéWaterfalls.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Petrohué Waterfalls</h4>
-                        <p>Stunning cascades located within Chile's Vicente Pérez Rosales National Park, surrounded by
-                            lush vegetation.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/LagunaLejía.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Laguna Lejia</h4>
-                        <p>A picturesque saltwater lagoon situated in Chile's high-altitude Atacama Desert, offering
-                            breathtaking views and unique wildlife.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="place">
-                <div class="placeImg">
-                    <img src="images/TermasGeométricas.jpg" alt="">
-                </div>
-                <div class="placeCard">
-                    <div>
-                        <h4>Termas Geométricas</h4>
-                        <p>Natural hot springs in Chile featuring rustic wooden structures amidst lush forest
-                            surroundings.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="explore">
-        <div class="exploreDown">
-            <div class="downUp">
-                <div class="firstDiv">
-                    <h2>Unveil</h2>
-                    <img src="images/torres gallery.jpg" alt="">
-                </div>
-                <div class="secondDiv">
-                    <div>
-                        <h4>hidden</h4>
-                        <h2>Treasures</h2>
-                    </div>
-                    <p>Embark on a Transformative Journey to Discover Captivating Landmarks, Serene Landscapes, and
-                        Enchanting Cultures"</p>
-                </div>
-            </div>
-            <div class="downDown jarallax">
-                <img src="images/torres gallery.jpg"  alt="">
-            </div>
-        </div>
-        <div class="exploreUp">
-            <div class="upDown">
-                <div class="card">
-                    <div class="cardTitle">
-                        <h4>Coastal Bliss & Ocean Breezes</h4>
-                        <p> Sun, sand, and waves embrace relaxation, offering a coastal paradise for sunbathing,
-                            swimming, and beachside bliss.</p>
-                    </div>
-                    <div class="cardContent">
-                        <img src="images/1F3D6.svg" alt="">
-                        <a href="#beach"><button class="button"> Explore
-                            </button></a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cardTitle">
-                        <h4>Alpine Wonders and Nature's Majesty</h4>
-                        <p>Majestic peaks tower high, offering breathtaking views and thrilling adventures in nature's
-                            lofty playground.</p>
-                    </div>
-                    <div class="cardContent">
-                        <img src="images/1F3D4.svg" alt="">
-                        <a href="#mountain"><button class="button"> Explore
-                            </button></a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cardTitle">
-                        <h4>Enchanting Woods and Nature's Serenade</h4>
-                        <p>Lush greenery envelops, a sanctuary of biodiversity where tranquility reigns, inviting
-                            exploration and connection with nature's wonders.</p>
-                    </div>
-                    <div class="cardContent">
-                        <img src="images/1F3DE.svg" alt="">
-                        <a href="#forest"><button class="button"> Explore
-                            </button></a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cardTitle">
-                        <h4>Gushing Waters and Pristine Beauty</h4>
-                        <p>Rushing cascades create a mesmerizing spectacle, their soothing sounds and misty beauty
-                            captivating all who encounter them.</p>
-                    </div>
-                    <div class="cardContent">
-                        <img src="images/1F3DD.svg" alt="">
-                        <a href="#waterfall"><button class="button"> Explore
-                            </button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="destinations">
-        <!-- <div  class="destinate">
-            <div class="destinateLeft destinates">
-                <div class="destBx">
-                    <h5>Ocean Breezes</h5>
-                    <h3>beachside bliss</h3>
-                </div>
-                <img src="images/beach1.jpg" alt="">
-            </div>
-            <div class="destinateMiddle">
-                <img src="images/beach3.jpg" alt="">
-            </div>
-            <div class="destinateRight destinates">
-                <div class="destBx">
-                    <h5>Ocean Breezes</h5>
-                    <h3>beachside bliss</h3>
-                </div>
-                <img src="images/beach2.jpg" alt="">
-            </div>
-        </div> -->
-        <div class="swiper mySwiper" id="beach">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide slide">
-                    <div class="destDetail">
-                        <h5>Country - Vietnam</h5>
-                        <h3>HA LONG BAY BEACH</h3>
-                        <p>Located in Quang Ninh Province, Ha Long Bay is known for its stunning limestone karsts
-                            rising from emerald waters. The beach offers scenic views, boat trips, and opportunities for
-                            kayaking and swimming</p>
-                    </div>
-                </div>
-                <div class="swiper-slide slide">
-                    <div class="destDetail">
-                        <h5>Country - Chile</h5>
-                        <h3>ANAKENA BEACH</h3>
-                        <p>Situated on Easter Island (Rapa Nui), Anakena Beach is a picturesque beach with golden sand
-                            and crystal-clear waters. Surrounded by palm trees and ancient moai statues, it offers a
-                            unique blend of natural beauty and cultural significance.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <!-- <div class="swiper-pagination"></div> -->
-        </div>
-        <!-- <div class="destinate">
-            <div class="destinateLeft destinates">
-                <div class="destBx">
-                    <h5>Rushing cascades</h5>
-                    <h3>Gushing Waters</h3>
-                </div>
-                <img src="images/waterfall1.jpg" alt="">
-            </div>
-            <div class="destinateMiddle">
-                <img src="images/waterfall3.jpg" alt="">
-            </div>
-            <div class="destinateRight destinates">
-                <div class="destBx">
-                    <h5>Rushing cascades</h5>
-                    <h3>Gushing Waters</h3>
-                </div>
-                <img src="images/waterfall2.jpg" alt="">
-            </div>
-        </div> -->
-        <div class="swiper mySwiper waterfallSlider" id="waterfall" >
-            <div class="swiper-wrapper">
-                <div class="swiper-slide slide">
-                    <div class="destDetail">
-                        <h5>Country - Vietnam</h5>
-                        <h3>BAN GIOC-DETIAN FALLS</h3>
-                        <p>Located on the border between Vietnam and China, Ban Gioc-Detian Falls is one of the largest
-                            and most impressive waterfalls in Southeast Asia. It consists of multiple cascades and
-                            offers breathtaking views amidst lush greenery.</p>
-                    </div>
-                </div>
-                <div class="swiper-slide slide">
-                    <div class="destDetail">
-                        <h5>Country - Chile</h5>
-                        <h3>IGUAZU FALLS</h3>
-                        <p>While primarily located in Argentina, Iguazu Falls also extends into Chile, marking the
-                            border between the two countries. This awe-inspiring waterfall system comprises a series of
-                            cascades and is renowned for its sheer size and power.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <!-- <div class="swiper-pagination"></div> -->
-        </div>
-        <!-- <div  class="destinate">
-            <div class="destinateLeft destinates">
-                <div class="destBx">
-                    <h5>Enchanting Woods</h5>
-                    <h3>Nature's Serenade</h3>
-                </div>
-                <img src="images/forest1.jpg" alt="">
-            </div>
-            <div class="destinateMiddle">
-                <img src="images/forest2.jpg" alt="">
-            </div>
-            <div class="destinateRight destinates">
-                <div class="destBx">
-                    <h5>Enchanting Woods</h5>
-                    <h3>Nature's Serenade</h3>
-                </div>
-                <img src="images/forest3.jpg" alt="">
-            </div>
-        </div> -->
-        <div class="swiper mySwiper forestSlider" id="forest">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide slide">
-                    <div class="destDetail">
-                        <h5>Country - Vietnam</h5>
-                        <h3>CAT TIEN NATIONAL PARK</h3>
-                        <p>Located in southern Vietnam, a tropical forest known for its rich biodiversity. The park is
-                            home to diverse wildlife, including endangered species like the Indochinese tiger and Javan
-                            rhinoceros. Visitors can explore the lush forest through trekking trails, spot wildlife, and
-                            experience the beauty of nature.</p>
-                    </div>
-                </div>
-                <div class="swiper-slide slide">
-                    <div class="destDetail">
-                        <h5>Country - Chile</h5>
-                        <h3>CONGUILLÍO NATIONAL PARK</h3>
-                        <p>Situated in the Andes Mountains of central Chile, Characterized by its ancient Araucaria
-                            forests. These unique forests, featuring tall Araucaria trees, create a surreal and magical
-                            atmosphere. Visitors can hike through the forest trails, explore lava fields, and enjoy
-                            breathtaking views of the surrounding volcanoes.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <!-- <div class="swiper-pagination"></div> -->
-        </div>
-        <!-- <div  class="destinate">
-            <div class="destinateLeft destinates">
-                <div class="destBx">
-                    <h5>Alpine Wonders</h5>
-                    <h3>Majestic peaks</h3>
-                </div>
-                <img src="images/mountain1.jpg" alt="">
-            </div>
-            <div class="destinateMiddle">
-                <img src="images/mountain2.jpg" alt="">
-            </div>
-            <div class="destinateRight destinates">
-                <div class="destBx">
-                    <h5>Alpine Wonders</h5>
-                    <h3>Majestic peaks</h3>
-                </div>
-                <img src="images/mountain3.jpg" alt="">
-            </div>
-        </div> -->
-        <div class="swiper mySwiper monSlider" id="mountain">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide slide">
-                    <div class="destDetail">
-                        <h5>Country - Chile</h5>
-                        <h3>TORRES DEL PAINE</h3>
-                        <p>Located in the Patagonia region of Chile, Torres del Paine National Park is known for its
-                            stunning mountain landscapes. The park features granite peaks, glaciers, turquoise lakes,
-                            and vast open plains, creating a dramatic and visually captivating mountainous environment.
-                        </p>
-                    </div>
-                </div>
-                <div class="swiper-slide slide">
-                    <div class="destDetail">
-                        <h5>Country - Chile</h5>
-                        <h3>ACONCAGUA</h3>
-                        <p>Situated in the Andes mountain range in central Chile, Aconcagua is the highest peak in the
-                            Americas. Its majestic snow-capped summit and surrounding peaks provide a breathtaking
-                            mountain landscape that attracts mountaineers and nature enthusiasts from around the world.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <!-- <div class="swiper-pagination"></div> -->
-        </div>
-    </section>
-    <section id="contact">
-        <div class="contactCard">
-            <div class="contactLeft">
-                <img src="images/4923070_sketch_icon.svg" alt="">
-                <div>
-                    <h6>Contact</h6>
-                    <h4>Let's Create your next big project together.</h4>
-                </div>
-            </div>
-            <div class="contactRight">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="name" id="" class="input" placeholder="Name">
-                    <input type="email" name="email" id="" class="input" placeholder="Email">
-                    <textarea name="message" id="msg" cols="30" rows="10" class="message"
-                        placeholder="Message"></textarea>
-                    <input type="submit" value="Send Message" class="submit">
-                    <span id="msg"></span>
-                </form>
-            </div>
-        </div>
-    </section>
-    <script src="jarallax-element.js"></script>
-    <script src="jarallax.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbycn3t7qcD1KZxNwJqSyEeKJDHAUHyk3Dcv0UKEoIjh4Rxqrjns9oh2pcX_fxHoSio/exec';
-        const form = document.forms['submit-to-google-sheet'];
-        const msg = document.getElementById("msg");
-        const credentials = document.getElementsByClassName(".input");
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    msg.innerHTML = "Thank's for your valuable feedback..."
-                    setTimeout(function () {
-                        msg.innerHTML = ""
-                    }, 5000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
-        jarallax(document.querySelectorAll('.jarallax'), {
-            speed: 0.5,
-        })
-    </script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            pagination: {
-                el: ".swiper-pagination",
-                type: "progressbar",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
+        <div class="hero-foot">
+            <div class="glass">
+                <h2>Unveil the world's must-see tourist attractions</h2>
+                <p>Embark on a journey to discover captivating landmarks, stunning landscapes and cultural wonders.</p>
+            </div>
+            <div class="countries">
+                <a class="country" href="#vietnam">
+                    <img src="images/vietnam.jpg" alt="">
+                    <span class="c-name">Vietnam</span>
+                    <span class="c-geo">14.1&deg;N 108.3&deg;E</span>
+                </a>
+                <a class="country" href="#chile">
+                    <img src="images/chile.jpg" alt="">
+                    <span class="c-name">Chile</span>
+                    <span class="c-geo">35.7&deg;S 71.5&deg;W</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- Vietnam -->
+        <div class="wrap">
+            <div class="intro" id="vietnam">
+                <figure class="tilt tilt-l"><img src="images/vietnam1.jpg" alt="" loading="lazy"></figure>
+                <h2 class="statement">Vietnam offers stunning landscapes, rich history, delicious cuisine, vibrant
+                    cities and serene beaches. Explore ancient temples, cruise through Halong Bay and savor authentic
+                    pho.</h2>
+                <figure class="tilt tilt-r"><img src="images/vietnam2.jpg" alt="" loading="lazy"></figure>
+            </div>
+
+            <ul class="index" aria-label="Places in Vietnam">
+                <li class="row" tabindex="0" data-img="images/mucangchai.jpg">
+                    <img class="thumb" src="images/mucangchai.jpg" alt="" loading="lazy">
+                    <h3>Mu Cang Chai</h3>
+                    <p>A breathtaking region in Vietnam's northwest known for its terraced rice fields, showcasing
+                        stunning landscapes and cultural heritage.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/hominh.jpg">
+                    <img class="thumb" src="images/hominh.jpg" alt="" loading="lazy">
+                    <h3>Ho Chi Minh</h3>
+                    <p>Vietnam's largest city and bustling economic hub, offering a mix of colonial landmarks, vibrant
+                        markets and delicious street food.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/ninhBinh.jpg">
+                    <img class="thumb" src="images/ninhBinh.jpg" alt="" loading="lazy">
+                    <h3>Ninh Binh</h3>
+                    <p>A picturesque province in Vietnam, famous for its karst landscapes, caves and historical sites,
+                        including the ancient capital of Hoa Lu.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/dragon.jpg">
+                    <img class="thumb" src="images/dragon.jpg" alt="" loading="lazy">
+                    <h3>Dragon Bridge of Danang</h3>
+                    <p>Iconic bridge in Vietnam's Danang city, featuring a dragon-shaped design and captivating
+                        nighttime fire-breathing shows.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/danang.jpg">
+                    <img class="thumb" src="images/danang.jpg" alt="" loading="lazy">
+                    <h3>Han River Bridge of Danang</h3>
+                    <p>An architectural masterpiece in Danang, Vietnam, known for its unique swing-span design and
+                        stunning illuminations.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/fanis.jpg">
+                    <img class="thumb" src="images/fanis.jpg" alt="" loading="lazy">
+                    <h3>Sa Pa Fansipan</h3>
+                    <p>Located in Sa Pa, Vietnam, Fansipan is the highest peak in Indochina, attracting adventurous
+                        hikers with its majestic beauty.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Chile -->
+        <div class="wrap">
+            <div class="intro" id="chile">
+                <figure class="tilt tilt-l"><img src="images/chile1.jpg" alt="" loading="lazy"></figure>
+                <h2 class="statement">Chile entices travelers with its diverse landscapes, from the otherworldly Atacama
+                    Desert to the breathtaking Patagonian fjords. Experience vibrant culture, explore vineyards and trek
+                    in the Andes.</h2>
+                <figure class="tilt tilt-r"><img src="images/chile2.jpg" alt="" loading="lazy"></figure>
+            </div>
+
+            <ul class="index" aria-label="Places in Chile">
+                <li class="row" tabindex="0" data-img="images/providencia.jpg">
+                    <img class="thumb" src="images/providencia.jpg" alt="" loading="lazy">
+                    <h3>Providencia</h3>
+                    <p>A vibrant neighborhood in Santiago, Chile, offering a mix of shopping, dining and cultural
+                        attractions.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/atacama.jpg">
+                    <img class="thumb" src="images/atacama.jpg" alt="" loading="lazy">
+                    <h3>Atacama Desert</h3>
+                    <p>A mesmerizing, arid landscape in Chile, known for its otherworldly beauty and stargazing
+                        opportunities.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/easter.jpg">
+                    <img class="thumb" src="images/easter.jpg" alt="" loading="lazy">
+                    <h3>Easter Island</h3>
+                    <p>A remote Polynesian island in the Pacific Ocean, famous for its enigmatic moai statues and rich
+                        cultural heritage.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/PetrohuéWaterfalls.jpg">
+                    <img class="thumb" src="images/PetrohuéWaterfalls.jpg" alt="" loading="lazy">
+                    <h3>Petrohué Waterfalls</h3>
+                    <p>Stunning cascades located within Chile's Vicente Pérez Rosales National Park, surrounded by lush
+                        vegetation.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/LagunaLejía.jpg">
+                    <img class="thumb" src="images/LagunaLejía.jpg" alt="" loading="lazy">
+                    <h3>Laguna Lejía</h3>
+                    <p>A picturesque saltwater lagoon situated in Chile's high-altitude Atacama Desert, offering
+                        breathtaking views and unique wildlife.</p>
+                </li>
+                <li class="row" tabindex="0" data-img="images/TermasGeométricas.jpg">
+                    <img class="thumb" src="images/TermasGeométricas.jpg" alt="" loading="lazy">
+                    <h3>Termas Geométricas</h3>
+                    <p>Natural hot springs in Chile featuring rustic wooden structures amidst lush forest surroundings.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Explore -->
+        <section class="section" id="explore">
+            <div class="wrap">
+                <div class="unveil-grid">
+                    <h2 class="unveil">
+                        <span class="u-row"><span>Unveil</span><img src="images/torres%20gallery.jpg" alt=""
+                                loading="lazy"></span>
+                        <span class="u-row"><img src="images/cat%20tien.jpg" alt=""
+                                loading="lazy"><span>hidden</span></span>
+                        <span class="u-row"><span>Treasures</span></span>
+                    </h2>
+
+                </div>
+
+                <div class="wide" id="wide">
+                    <img src="images/torres%20gallery.jpg" alt="Torres del Paine mountains" loading="lazy">
+                </div>
+
+                <div class="themes" id="themes">
+                    <article class="theme is-open" tabindex="0">
+                        <img src="images/1F3D6.svg" alt="">
+                        <h3>Coastal bliss and ocean breezes</h3>
+                        <div class="theme-more">
+                            <div>
+                                <p>Sun, sand and waves embrace relaxation, offering a coastal paradise for sunbathing,
+                                    swimming and beachside bliss.</p>
+                                <a class="pill" href="#beach" data-tab="beach">See beaches</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="theme" tabindex="0">
+                        <img src="images/1F3D4.svg" alt="">
+                        <h3>Alpine wonders and nature's majesty</h3>
+                        <div class="theme-more">
+                            <div>
+                                <p>Majestic peaks tower high, offering breathtaking views and thrilling adventures in
+                                    nature's lofty playground.</p>
+                                <a class="pill" href="#mountain" data-tab="mountain">See mountains</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="theme" tabindex="0">
+                        <img src="images/1F3DE.svg" alt="">
+                        <h3>Enchanting woods and nature's serenade</h3>
+                        <div class="theme-more">
+                            <div>
+                                <p>Lush greenery envelops, a sanctuary of biodiversity where tranquility reigns,
+                                    inviting exploration and connection with nature's wonders.</p>
+                                <a class="pill" href="#forest" data-tab="forest">See forests</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="theme" tabindex="0">
+                        <img src="images/1F3DD.svg" alt="">
+                        <h3>Gushing waters and pristine beauty</h3>
+                        <div class="theme-more">
+                            <div>
+                                <p>Rushing cascades create a mesmerizing spectacle, their soothing sounds and misty
+                                    beauty captivating all who encounter them.</p>
+                                <a class="pill" href="#waterfall" data-tab="waterfall">See waterfalls</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destinations -->
+        <section class="section section-top-tight" id="destinations">
+            <div class="wrap">
+                <div class="dest-head">
+                    <h2 class="sec-title">Destinations</h2>
+                    <div class="tabs" role="tablist" aria-label="Destination type">
+                        <button role="tab" id="tab-beach" aria-controls="beach" aria-selected="true"
+                            data-tab="beach">Beaches</button>
+                        <button role="tab" id="tab-waterfall" aria-controls="waterfall" aria-selected="false"
+                            data-tab="waterfall" tabindex="-1">Waterfalls</button>
+                        <button role="tab" id="tab-forest" aria-controls="forest" aria-selected="false"
+                            data-tab="forest" tabindex="-1">Forests</button>
+                        <button role="tab" id="tab-mountain" aria-controls="mountain" aria-selected="false"
+                            data-tab="mountain" tabindex="-1">Mountains</button>
+                    </div>
+                </div>
+
+                <div class="stage" id="beach" role="tabpanel" aria-labelledby="tab-beach">
+                    <article class="dest is-open" tabindex="0">
+                        <img src="images/halong.jpg" alt="" loading="lazy">
+                        <div class="dest-info">
+                            <span class="tag">Vietnam</span>
+                            <h3>Ha Long Bay Beach</h3>
+                            <div class="dest-more">
+                                <p>Located in Quang Ninh Province, Ha Long Bay is known for its stunning limestone
+                                    karsts rising from emerald waters. The beach offers scenic views, boat trips, and
+                                    opportunities for kayaking and swimming.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dest" tabindex="0">
+                        <img src="images/anakena.jpg" alt="" loading="lazy">
+                        <div class="dest-info">
+                            <span class="tag">Chile</span>
+                            <h3>Anakena Beach</h3>
+                            <div class="dest-more">
+                                <p>Situated on Easter Island (Rapa Nui), Anakena Beach is a picturesque beach with
+                                    golden sand and crystal-clear waters. Surrounded by palm trees and ancient moai
+                                    statues, it offers a unique blend of natural beauty and cultural significance.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="stage" id="waterfall" role="tabpanel" aria-labelledby="tab-waterfall" hidden>
+                    <article class="dest is-open" tabindex="0">
+                        <img src="images/ban%20goic.jpg" alt="" loading="lazy">
+                        <div class="dest-info">
+                            <span class="tag">Vietnam</span>
+                            <h3>Ban Gioc-Detian Falls</h3>
+                            <div class="dest-more">
+                                <p>Located on the border between Vietnam and China, Ban Gioc-Detian Falls is one of the
+                                    largest and most impressive waterfalls in Southeast Asia. It consists of multiple
+                                    cascades and offers breathtaking views amidst lush greenery.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dest" tabindex="0">
+                        <img src="images/Iguazu.jpg" alt="" loading="lazy">
+                        <div class="dest-info">
+                            <span class="tag">Chile</span>
+                            <h3>Iguazu Falls</h3>
+                            <div class="dest-more">
+                                <p>While primarily located in Argentina, Iguazu Falls also extends into Chile, marking
+                                    the border between the two countries. This awe-inspiring waterfall system comprises
+                                    a series of cascades and is renowned for its sheer size and power.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="stage" id="forest" role="tabpanel" aria-labelledby="tab-forest" hidden>
+                    <article class="dest is-open" tabindex="0">
+                        <img src="images/cat%20tien.jpg" alt="" loading="lazy">
+                        <div class="dest-info">
+                            <span class="tag">Vietnam</span>
+                            <h3>Cat Tien National Park</h3>
+                            <div class="dest-more">
+                                <p>Located in southern Vietnam, a tropical forest known for its rich biodiversity. The
+                                    park is home to diverse wildlife, including endangered species like the Indochinese
+                                    tiger and Javan rhinoceros. Visitors can explore the lush forest through trekking
+                                    trails, spot wildlife, and experience the beauty of nature.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dest" tabindex="0">
+                        <img src="images/conguilio.jpg" alt="" loading="lazy">
+                        <div class="dest-info">
+                            <span class="tag">Chile</span>
+                            <h3>Conguillío National Park</h3>
+                            <div class="dest-more">
+                                <p>Situated in the Andes Mountains of central Chile, characterized by its ancient
+                                    Araucaria forests. These unique forests, featuring tall Araucaria trees, create a
+                                    surreal and magical atmosphere. Visitors can hike through the forest trails, explore
+                                    lava fields, and enjoy breathtaking views of the surrounding volcanoes.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="stage" id="mountain" role="tabpanel" aria-labelledby="tab-mountain" hidden>
+                    <article class="dest is-open" tabindex="0">
+                        <img src="images/torres%20gallery%20alt.jpg" alt="" loading="lazy">
+                        <div class="dest-info">
+                            <span class="tag">Chile</span>
+                            <h3>Torres del Paine</h3>
+                            <div class="dest-more">
+                                <p>Located in the Patagonia region of Chile, Torres del Paine National Park is known for
+                                    its stunning mountain landscapes. The park features granite peaks, glaciers,
+                                    turquoise lakes, and vast open plains, creating a dramatic and visually captivating
+                                    mountainous environment.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dest" tabindex="0">
+                        <img src="images/aconcogua.jpg" alt="" loading="lazy">
+                        <div class="dest-info">
+                            <span class="tag">Chile</span>
+                            <h3>Aconcagua</h3>
+                            <div class="dest-more">
+                                <p>Situated in the Andes mountain range in central Chile, Aconcagua is the highest peak
+                                    in the Americas. Its majestic snow-capped summit and surrounding peaks provide a
+                                    breathtaking mountain landscape that attracts mountaineers and nature enthusiasts
+                                    from around the world.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-top-tight" id="contact">
+            <div class="wrap">
+                <div class="contact">
+                    <div class="contact-left">
+                        <img src="images/4923070_sketch_icon.svg" alt="">
+                        <h2>Let's create your next big project together.</h2>
+                    </div>
+                    <form name="submit-to-google-sheet" id="contactForm">
+                        <fieldset class="interest">
+                            <legend>I'm drawn to</legend>
+                            <label><input type="checkbox" name="interest" value="Beaches"><span>Beaches</span></label>
+                            <label><input type="checkbox" name="interest"
+                                    value="Waterfalls"><span>Waterfalls</span></label>
+                            <label><input type="checkbox" name="interest" value="Forests"><span>Forests</span></label>
+                            <label><input type="checkbox" name="interest"
+                                    value="Mountains"><span>Mountains</span></label>
+                        </fieldset>
+                        <label for="cName">Name</label>
+                        <input type="text" name="name" id="cName" autocomplete="name" required>
+                        <label for="cEmail">Email</label>
+                        <input type="email" name="email" id="cEmail" autocomplete="email" required>
+                        <label for="cMsg">Message</label>
+                        <textarea name="message" id="cMsg" rows="4" required></textarea>
+                        <button class="btn" type="submit" id="sendBtn">Send message</button>
+                        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="peek" id="peek" aria-hidden="true"><img alt=""></div>
+
+    <footer class="foot">
+        <div class="wrap foot-in">
+            <span>Fornax</span>
+            <span>&copy; 2026 Alchemy. All rights reserved.</span>
+            <a href="#home">Back to top</a>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 
 </html>
